@@ -1,0 +1,8 @@
+<!-- for payment show on cart -->
+<% if(payment_id != '' && payment_id != 'undefined') { %>
+    <a href="#" onclick="alert_logout()">&nbsp;<i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;<span class="si-lo-btn"><%= payment_id %></span></a>
+<% } %>
+
+<% if(payment_id == '' || payment_id == 'undefined') { %>
+    <a href="#">&nbsp;<i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;<span class="si-lo-btn">Sign-Up</span></a>
+<% } %>

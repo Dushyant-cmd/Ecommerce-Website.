@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">       
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto+Slab:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">    
+    <title>Riskklo</title>
+</head>
+<body>
+    <header id="header"> 
+        <nav class="navbar">       
+            <div class="logo-cont">
+                <a href="/">
+                <img src="image/PNG ATAR.png" alt="Please wait." >
+                </a>
+            </div>     
+            <ul class="nav-ul">                
+                <li id="items1"  class="items"><a href="/">Homes</a></li>
+                <li id="items2"  class="items"><a href="/About">About Us</a></li>
+                <li id="items3"  class="items"><a href="/Shop">Blog</a></li>
+                <li id="items4"  class="items"><a href="/Track-My-Order">Services</a></li>
+                <li id="items5"  class="items"><a href="/Contact-Us">Contact-Us</a></li>
+            </ul>     
+            <div class="hamburger-menu">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+            </div>       
+        </nav>
+        <header id="header-2">      
+        <div class="main-cont-srch">     
+            <div class="search-cont">
+                <form action="/search_results" method="get">
+                    <div class="search-b">
+                        <input type="text" name="title" id="Search-query" size="40" placeholder="Search Products">
+                        <button type="submit" class="btn"><i class="fas fa-search"></i>&nbsp;<span>Search</span></button>
+                    </div>                    
+                </form>
+            </div>
+        </div> 
+        </header>
+    </header>
+
+    <main>
+        <!-- <a href="/Inbox" class="mail glow-on-hover"><img src="image/gmail-btn.png" alt=""></a> -->
+        <section id="sec-1st">
+            <div class="home-tagline">
+            <!-- <img src="image/background-1st-4.png" alt="" width="100%" height="565px"> -->
+            <div class="tg-home">                
+                <h1>
+                    Welcome To 
+                    <span class="txt-type" data-wait="1000" data-words='["FigureOutosh"]'></span>
+                </h1>                
+            </div>    
+            <div class="para-btn">
+                <p class="p-head">
+                    We put disruption in top gear by helping you create exceptional experiences</p>
+                <div class="tg-home-btn">
+                <a href="/Shop" class="h-btn"><span>Explore Blogs</span></a>
+                </div>
+            </div>
+            <div class="pdform">
+                <div>
+                <h2 class="pdform-h">Ask-Me</h2>
+                <p class="pdform-p">Please Add In Our Family!</p>
+                </div>
+            <form action="/Askme" method="post">
+                <div class="pdform-1">
+                  <label for="username">Full Name</label>
+                  <input type="text" name="full_name" id="user-in" size="35" placeholder="Type Your Name" required>
+                </div>
+                <div class="pdform-2">
+                  <label for="username">Email</label>
+                  <input type="email" name="e_mail" id="email-in" size="35" placeholder="Type Your Email" required>
+                </div>
+                <div class="pdform-3">
+                  <label for="username">Message</label>
+                  <textarea name="msg_contact" id="querymsg" cols="35" rows="10" placeholder="Please Type Your Message"
+                  required></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning btn-lg btn-block pd-up-btn">Send</button>              
+            </form>
+            </div>
+        </div>
+        </section>
+        <section id="sec-3rd">
+            <div class="title-sol">
+                <h1 class="h1-pro">Our Solutions</h1>
+            </div>
+            <div class="sol-cont">
+                <div class="cont-m">
+                    <div class="sol-title">
+                        <a href="/About"><img src="image/logo-retail.JPG" alt="" class="re-img"></a>
+                        <a href="/About"><h1 class="re-h1">Android Deveolopment</h1></a>
+                    </div>
+
+                    <div class="sol-title">
+                        <a href="/About"><img src="image/logo-retail.JPG" alt="" class="re-img"></a>
+                        <a href="/About"><h1 class="re-h1">IOS Development</h1></a>
+                    </div>
+
+                    <div class="sol-title">
+                        <a href="/About"><img src="image/logo-retail.JPG" alt="" class="re-img"></a>
+                        <a href="/About"><h1 class="re-h1">Web Development</h1></a>
+                    </div>
+
+                    <div class="sol-title">
+                        <a href="/About"><img src="image/logo-retail.JPG" alt="" class="re-img"></a>
+                        <a href="/About"><h1 class="re-h1">Content Writing</h1></a>
+                    </div>
+
+                    <div class="sol-title" id="sol-title-4" style="padding-right: 29px;">
+                        <a href="/About"><img src="image/logo-trust.jpg" alt="" class="re-img"></a>
+                        <a href="/About"><h1 class="re-h1">SEO</h1></a>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <section class="sec-4th">
+            <div class="heading-wmu"><h1>What Makes Us Different From Others</h1></div>
+            <div class="wmu-head-box">
+                <div class="wmu-head-box-txt">
+                <h2 class="wmu-head-box-h2">On-Time Delivery</h2>
+                <p class="wmu-head-box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, ab illo odit cupiditate recusandae illum quas consequatur quia non in labore, beatae ipsa provident magni minus exercitationem impedit nostrum perspiciatis.</p>
+                </div>
+                <div class="wmu-head-box-img">
+                    <img src="image/dummy.2.jpg" alt="">
+                </div>                
+            </div>
+            <div class="wmu-btn">                    
+                <button type="submit" class="wmu-head-btn"><a href="/About" class="lrn_a">Learn More</a> </button>
+            </div>
+
+            <div class="wmu-head-box-2">
+                <div class="wmu-head-box-img-2">
+                    <img src="https://source.unsplash.com/489x156/?nature,water" alt="">
+                </div>   
+
+                <div class="wmu-head-box-txt">
+                <h2 class="wmu-head-box-h2">Transparent Service</h2>
+                <p class="wmu-head-box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, ab illo odit cupiditate recusandae illum quas consequatur quia non in labore, beatae ipsa provident magni minus exercitationem impedit nostrum perspiciatis.</p>
+                </div>             
+            </div>
+            <div class="wmu-btn-2">                    
+                <button type="submit" class="wmu-head-btn-2"><a href="/About" class="lrn_a">Learn More</a></button>
+            </div>
+
+            <div class="wmu-head-box-3"> 
+                <div class="wmu-head-box-txt">
+                <h2 class="wmu-head-box-h2">Payment Security</h2>
+                <p class="wmu-head-box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, ab illo odit cupiditate recusandae illum quas consequatur quia non in labore, beatae ipsa provident magni minus exercitationem impedit nostrum perspiciatis.</p>
+                </div>       
+                <div class="wmu-head-box-img-3">
+                    <img src="https://source.unsplash.com/489x156/?nature" alt="">
+                </div>        
+            </div>
+            <div class="wmu-btn-3">                    
+                <button type="submit" class="wmu-head-btn-3"><a href="/About" class="lrn_a">Learn More</a></button>
+            </div>
+
+            <div class="wmu-head-box-2">
+                <div class="wmu-head-box-img-2">
+                    <img src="https://source.unsplash.com/489x156/?nature,building" alt="">
+                </div>   
+
+                <div class="wmu-head-box-txt">
+                <h2 class="wmu-head-box-h2">Free Maintainance for Six Months</h2>
+                <p class="wmu-head-box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, ab illo odit cupiditate recusandae illum quas consequatur quia non in labore, beatae ipsa provident magni minus exercitationem impedit nostrum perspiciatis.</p>
+                </div>             
+            </div>
+            <div class="wmu-btn-2">                    
+                <button type="submit" class="wmu-head-btn-2"><a href="/About" class="lrn_a">Learn More</a></button>
+            </div>
+        </section>
+        <section class="s-5th">
+        <div class="test-head">
+            <h1>Testimonials</h1>
+        </div>
+        <div class="wrapper">
+            <ul class="carousel" data-target="carousel">
+              <li class="card" data-target="card">                    <div class="test-item" id="testitem4">
+                        <img src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302" alt="">
+                        <h5>Raquel</h5>
+                        <p class="review-title">"Excellent Service."</p>
+                        <p class="review-date">on July 10,2021</p>
+                    </div></li>
+              <li class="card" data-target="card">                    <div class="test-item" id="testitem4">
+                        <img src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303" alt="">
+                        <h5>Millie</h5>
+                        <p class="review-title">"Reliable Product."</p>
+                        <p class="review-date">on July 10,2021</p>
+                    </div></li>
+              <li class="card" data-target="card">                    <div class="test-item" id="testitem4">
+                        <img src="https://images.unsplash.com/photo-1588361035994-295e21daa761?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=301" alt="">
+                        <h5>Jessica</h5>
+                        <p class="review-title">"Very Nice People."</p>
+                        <p class="review-date">on July 10,2021</p>
+                    </div></li>
+              <li class="card" data-target="card">                    <div class="test-item" id="testitem4">
+                        <img src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt="">
+                        <h5>Justin</h5>
+                        <p class="review-title">"Cost Effective."</p>
+                        <p class="review-date">on July 10,2021</p>
+                    </div></li>        
+            </ul>
+            <div class="button-wrapper">
+              <button data-action="slideLeft"><i class="fas fa-chevron-left"></i></button>
+              <button data-action="slideRight"><i class="fas fa-chevron-right"></i></button>
+            </div>            
+          </div>  
+          <div class="review-all">          
+           <button type="button" class="btn">SEE ALL</button>
+          </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot-main-cont">
+            <div class="foot-cont">
+                <div class="row" id="row1">
+                    <h2>Main Menu</h2>
+                    <nav class="menu-li">
+                        <li><a href="/"><i class="fas fa-chevron-left"></i>&nbsp;Home</a></li>
+                        <li><a href="/About"><i class="fas fa-chevron-left"></i>&nbsp;About-Us</a></li>
+                        <li><a href="/Shop"><i class="fas fa-chevron-left"></i>&nbsp;Shop</a></li>
+                        <li><a href="/Track-My-Order"><i class="fas fa-chevron-left"></i>&nbsp;Track My Order</a></li>
+                        <li><a href="/Contact-Us"><i class="fas fa-chevron-left"></i>&nbsp;Contact-Us</a></li>
+                    </nav>
+                </div>
+                <div class="row" id="row2">
+                    <h2>ADDRESS</h2>
+                    <a href="/Contact-Us"><i class="fas fa-chevron-left"></i>&nbsp;B-9/312, Second Floor,<br> <span style="padding-left: 0.9rem;"> Rohini Sector-3,</span> <br> <span style="padding-left: 0.9rem;"> Delhi-110086 </span> <br> </a>
+                    <a href="tel: +91 9953474744"><i class="fas fa-chevron-left"></i>&nbsp;+91 9953474744</a>
+                </div>
+                <div class="row" id="row3">
+                    <h2>OUR POLICY</h2>
+                    <nav class="li-2">
+                        <li><a href="/About"><i class="fas fa-chevron-left"></i>&nbsp;Privacy Policy</a></li>
+                        <li><a href="/About"><i class="fas fa-chevron-left"></i>&nbsp;Terms & Conditions</a></li>
+                        <li><a href="/About"><i class="fas fa-chevron-left"></i>&nbsp;Cancellation & Refund Policy</a></li>
+                    </nav>
+                </div>
+                <div class="row" id="row4">
+                    <h2>NEWSLETTER</h2>
+                    <input type="email" name="newsletter" id="newsletter" placeholder="Email-Id">
+                    <button type="submit" class="cur-btn">Submit</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/7e40b36327.js" crossorigin="anonymous"></script>
+</body>
+</html>

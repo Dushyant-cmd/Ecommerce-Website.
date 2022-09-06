@@ -1,0 +1,47 @@
+<% if(typeof errors != 'undefined') { %>
+    <% errors.forEach(function (error) { %>
+        <div class="err-cont">
+            <div class="errmsg">
+                <%= error.msg %>
+            </div>
+            <div class="rem-btn">
+                <button onclick="remove()"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+    <% }); %>
+<% } %>
+
+
+
+<% if(success_mesg != '') { %>
+    <div class="err-cont" style="background-color: rgb(195 255 195);">
+        <div class="errmsg">
+            <%= success_mesg %>
+        </div>
+        <div class="rem-btn">
+            <button onclick="remove()"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+<% } %>
+
+<% if(error_mesg != '') { %>
+    <div class="err-cont" style="background-color: rgb(255, 145, 145);">
+        <div class="errmsg">
+            <%= error_mesg %>
+        </div>
+        <div class="rem-btn">
+            <button onclick="remove()"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+<% } %>
+
+<% if(error != '') { %>
+    <div class="err-cont" style="background-color: rgb(255, 145, 145);">
+        <div class="errmsg">
+            <%= error %>
+        </div>
+        <div class="rem-btn">
+            <button onclick="remove()"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+<% } %>

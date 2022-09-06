@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">       
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto+Slab:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+    <title>Contact-Us</title>
+</head>
+<body>
+    <header id="header"> 
+        <nav class="navbar">       
+            <div class="logo-cont">
+                <a href="/">
+                <img src="image/PNG ATAR.png" alt="Please wait." >
+                </a>
+            </div>     
+            <ul class="nav-ul">                
+                <li id="items1"  class="items"><a href="/">Homes</a></li>
+                <li id="items2"  class="items"><a href="/About">About Us</a></li>
+                <li id="items3"  class="items"><a href="/Shop">Blog</a></li>
+                <li id="items4"  class="items"><a href="/Track-My-Order">Services</a></li>
+                <li id="items5"  class="items"><a href="/Contact-Us">Contact-Us</a></li>
+            </ul>     
+            <div class="hamburger-menu">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+            </div>       
+        </nav>
+        <header id="header-2">      
+        <div class="main-cont-srch">     
+            <div class="search-cont">
+                <form action="/search_results" method="get">
+                    <div class="search-b">
+                        <input type="text" name="title" id="Search-query" size="40" placeholder="Search Products">
+                        <button type="submit" class="btn"><i class="fas fa-search"></i>&nbsp;<span>Search</span></button>
+                    </div>                    
+                </form>
+            </div>
+        </div> 
+        </header>
+    </header>
+    <main>
+        <section>
+            <div class="contact-main-cont">
+                <div class="contact-cont">
+                    <div class="add">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223994.4068201978!2d77.09134944644829!3d28.692260754269608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03df021e121b%3A0x81fc307d3da32c07!2sJewelry%20Making%20Tools!5e0!3m2!1sen!2sin!4v1627984171579!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <div class="send-msg">
+                            <h3>ASK ME</h3>
+                            <form action="/Askme" method="post">
+                                <div class="full_name">
+                                    <label for="/">Full Name</label>
+                                    <input type="name" name="full_name" id="full_name2" required>
+                                </div>
+                                <div class="email">
+                                    <label for="/">E-mail</label>
+                                    <input type="email" name="e_mail" id="E-Mail" required>
+                                </div>
+                                <div class="message">
+                                    <label for="/">Message</label>
+                                    <textarea name="msg_contact" id="msg-contact" cols="30" rows="10" required></textarea>
+                                </div>
+                                <div class="msg-btn">
+                                    <button type="submit" id="ask_me_form">Send</button>
+                                </div>
+                            </form>
+                        </div>  
+                    </div>
+                    <div class="add-txt">
+                        <h4>ADDRESS</h4>
+                        <a href="#">B-9/312, Second Floor, Sector 3, Rohini, Delhi, 110085</a>
+
+                        <h4>SEND US E-MAIL</h4>
+                        <a href="#">atarmart@gmail.com</a>
+
+                        <h4>CALL US ON</h4>
+                        <a href="tel: +91 9953474744" class="tel-cont">+91 9953474744</a>
+                    </div> 
+                                    
+                </div>                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot-main-cont">
+            <div class="foot-cont">
+                <div class="row" id="row1">
+                    <h2>Main Menu</h2>
+                    <nav class="menu-li">
+                        <li><a href="/"><i class="fas fa-chevron-left"></i>&nbsp;Home</a></li>
+                        <li><a href="/About"><i class="fas fa-chevron-left"></i>&nbsp;About-Us</a></li>
+                        <li><a href="/Shop"><i class="fas fa-chevron-left"></i>&nbsp;Shop</a></li>
+                        <li><a href="/Track-My-Order"><i class="fas fa-chevron-left"></i>&nbsp;Track My Order</a></li>
+                        <li><a href="/Contact-Us"><i class="fas fa-chevron-left"></i>&nbsp;Contact-Us</a></li>
+                    </nav>
+                </div>
+                <div class="row" id="row2">
+                    <h2>ADDRESS</h2>
+                    <a href="/Contact-Us"><i class="fas fa-chevron-left"></i>&nbsp;B-9/312, Second Floor,<br> <span style="padding-left: 0.9rem;"> Rohini Sector-3,</span> <br> <span style="padding-left: 0.9rem;"> Delhi-110086 </span> <br> </a>
+                    <a href="tel: +91 9953474744"><i class="fas fa-chevron-left"></i>&nbsp;+91 9953474744</a>
+                </div>
+                <div class="row" id="row3">
+                    <h2>OUR POLICY</h2>
+                    <nav class="li-2">
+                        <li><a href="/About"><i class="fas fa-chevron-left"></i>&nbsp;Privacy Policy</a></li>
+                        <li><a href="/About"><i class="fas fa-chevron-left"></i>&nbsp;Terms & Conditions</a></li>
+                        <li><a href="/About"><i class="fas fa-chevron-left"></i>&nbsp;Cancellation & Refund Policy</a></li>
+                    </nav>
+                </div>
+                <div class="row" id="row4">
+                    <h2>NEWSLETTER</h2>
+                    <input type="email" name="newsletter" id="newsletter" placeholder="Email-Id">
+                    <button type="submit" class="cur-btn">Submit</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <script>
+        //Hamburger menu 
+    const navslide = () =>{
+    const hamburger = document.querySelector('.hamburger-menu');
+    const nav = document.querySelector('.nav-ul');
+    const nav_li = document.querySelectorAll('.nav-ul li');
+
+    //onclick ham show navbar
+    hamburger.addEventListener('click',()=>{
+      nav.classList.toggle('nav-active');  
+
+      //animate nav links
+      nav_li.forEach((items, index)  =>{
+        if(items.style.animation){
+          items.style.animation = '';
+        }
+        else{
+          items.style.animation = `nav-ul-fade 0.5s ease forwards ${index / 10 + 0}s`;
+        }
+      });
+
+      hamburger.classList.toggle('toggle')
+    })
+
+  
+    }
+
+    navslide();
+    </script> 
+    <script>
+    //Add event listener on askme form submit button
+    const askme_button = document.querySelector('#ask_me_form');
+        askme_button.addEventListener('click', ()=> {
+        alert("Data saved")
+    })
+    </script>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/7e40b36327.js" crossorigin="anonymous"></script>
+</body>
+</html>

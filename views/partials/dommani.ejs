@@ -1,0 +1,9 @@
+<% if(name != '' && name != 'undefined') { %>
+    <a href="/logout" onclick="alert_logout()">&nbsp;<i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;<span class="si-lo-btn"><%= name %></span></a>
+<% } %>
+
+<% if(name == '' || name == 'undefined') { %>
+    <a href="/Sign-Up">&nbsp;<i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;<span class="si-lo-btn">Sign-Up</span></a>
+<% } %>
+
+
